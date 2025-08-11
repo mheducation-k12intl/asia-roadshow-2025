@@ -1,0 +1,46 @@
+.headerNav li {
+    display: inline-block;
+}
+
+.headerNav li a {
+    display: block;
+    font-family: 'Proxima Nova Lt';
+    font-size: 20px;
+    padding: 13px 0px;
+    color: #000000;
+    text-align: center;
+}
+
+.headerNav {
+    max-width: 700px;
+    margin-left: auto;
+    box-shadow: 0px 0px 10px #ddd;
+    padding: 0px 30px;
+    border-radius: 100px;
+    padding-right: 6px;
+}
+
+.headerNav li.Register a {
+    font-weight: 700;
+    font-family: 'Proxima Nova', ProximaNova-Regular, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    background: #E31B22;
+    color: #fff;
+    /* width: 150px; */
+    height: 39px;
+    display: flex;
+    align-items: center;
+    border-radius: 100px;
+    text-align: center;
+    padding: 0px 36px;
+}
+
+.headerNav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerArea {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}

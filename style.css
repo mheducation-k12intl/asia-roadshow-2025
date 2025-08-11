@@ -1,0 +1,1221 @@
+
+
+@import url("https://mheducation-k12intl.github.io/bts-2025/assets/web-fonts/font.css");
+@import url("assets/web-fonts/proxima-300/proxima-300.css");
+/*
+ *****************************************
+    >>> | 01 Browser Reset & Common CSS|
+ *****************************************
+*/
+html, body{
+    height: 100%;
+}
+body {
+    font-family: 'Proxima Nova', ProximaNova-Regular, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000000;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a:focus,
+a:hover,
+a:visited,
+input,
+.bootstrap-select>.dropdown-toggle,
+input:hover,
+.bootstrap-select>.dropdown-toggle:hover,
+input:focus,
+.bootstrap-select>.dropdown-toggle:focus,
+input:active,
+.bootstrap-select>.dropdown-toggle:active,
+select {
+    text-decoration: none;
+    outline: none;
+}
+
+button:focus{
+    outline: 0px;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    /* font-family: 'Proxima Nova bold'; */
+    margin: 0 0 15px;
+    /* letter-spacing: -1px; */
+}
+
+
+/* 
+
+font-family: 'Proxima Nova Lt'
+
+*/
+/*
+ *****************************************
+ >>> | 03. navigation css Start
+ *****************************************
+*/
+
+.container{
+    max-width: 1320px;
+}
+.show__mobile{
+    display: none;
+}
+
+.headerNav li {
+    display: inline-block;
+}
+
+.headerNav li a {
+    display: block;
+    font-family: 'Proxima Nova Lt';
+    font-size: 20px;
+    padding: 8px 30px;
+    color: #000000;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.headerNav {
+    max-width: 710px;
+    margin-left: auto;
+    box-shadow: 0px 0px 10px #ddd;
+    padding: 5px;
+    border-radius: 100px;
+}
+
+.headerNav li.Register a {
+    font-weight: 700;
+    font-family: 'Proxima Nova', ProximaNova-Regular, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    background: #E31B22;
+    color: #fff;
+    /* width: 150px; */
+    height: 39px;
+    display: flex;
+    align-items: center;
+    border-radius: 100px;
+    text-align: center;
+    padding: 0px 36px;
+}
+
+.headerNav li a:hover{
+ color: #fff;
+ font-family: 'Proxima Nova', ProximaNova-Regular, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+ font-weight: 700;
+}
+
+.headerNav li.Event a:hover{
+    background: #3779E0;
+}
+
+.headerNav li.Gallery a:hover{
+    background: #B8A7FC;
+}
+
+.headerNav li.Speakers a:hover{
+    background: #FFC90D;
+}
+
+.headerNav li.FAQs a:hover{
+    background: #FA8FA7;
+}
+
+.headerNav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerArea {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+b {
+    font-weight: 700;
+    /* font-family: 'Proxima Nova bold'; */
+}
+
+a.btn__Global {
+    height: 60px;
+    width: 190px;
+    display: inline-flex;
+    border: 1px solid #fff;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+
+.company__brand::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #828282;
+}
+
+.company__brand::-webkit-scrollbar {
+    height: 6px;
+    background-color: #828282;
+}
+
+
+.company__brand::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+    background-color: #E31B22;
+}
+
+.platform__area {
+    padding-top: 80px;
+}
+
+.video__carouselTxt {
+    background: #F6F7F2;
+    padding: 30px;
+}
+
+.contact__form button {
+    background: #E31B23;
+    height: 60px;
+    width: 100%;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.footer__area {
+    padding-top: 110px;
+    background: #fff;
+    padding-bottom: 30px;
+}
+
+.foter__item h4 {
+    color: #fff;
+    text-decoration: underline;
+    margin-bottom: 25px;
+}
+
+.foter__item a {
+    color: #ffffff;
+    text-decoration: underline;
+    display: inline-block;
+    padding: 2px 0px;
+}
+
+.foter__item {
+    margin-bottom: 26px;
+}
+
+.foter__item li {
+    display: block;
+}
+
+.foter__item a:hover {
+    text-decoration: none;
+}
+
+.footer__bottom {
+    border-top: 1px solid #484747;
+    padding-top: 35px;
+}
+
+.terms__privacy {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.bdrVerticale {
+    height: 15px;
+    background: #000000;
+    width: 2px;
+}
+
+.terms__privacy a {
+    color: #000;
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.terms__privacy a:hover {
+    text-decoration: none;
+}
+
+.copyright {
+    margin-top: 30px;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Proxima Nova Lt';
+}
+
+
+.bannerTxt h5 {
+    color: #000000;
+    border: 1px solid #000000;
+    display: inline-block;
+    padding: 12px;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.bannerTxt h1 {
+    font-size: 78px;
+    line-height: 92%;
+}
+
+.bannerTxt h4 {
+    font-size: 28px;
+    line-height: 130%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bannerTxt p {
+    font-size: 28px;
+    line-height: 130%;
+    font-family: 'Proxima Nova Lt';
+}
+
+.register_btn {
+    background: #E31B22;
+    height: 60px;
+    font-size: 24px;
+    color: #fff;
+    line-height: 150%;
+    font-weight: 700;
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register_btn:hover {
+    background: #000;
+    color: #fff;
+}
+
+.bannerTxt span {
+    font-size: 20px;
+    font-family: 'Proxima Nova Lt';
+    line-height: 130%;
+    color: #000000;
+    display: block;
+    margin-top: 10px;
+}
+
+.highLight__top {
+    padding-top: 85px;
+}
+
+.hightLight__item {
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+    border-bottom: 1px solid #000000;
+    padding: 25px 0px;
+}
+
+.hightLight__item h3 {
+    font-size: 40px;
+    line-height: 92%;
+    letter-spacing: -1px;
+    margin: 0;
+}
+
+.hightLight__item p {
+    font-size: 20px;
+    font-family: 'Proxima Nova Lt';
+    margin: 0;
+    line-height: 130%;
+}
+
+.sectionTitle h1 {
+    font-size: 94px;
+    line-height: 92%;
+}
+
+.sectionTitle h1 span {
+    color: #3779E0;
+}
+
+.sectionTitle p {
+    font-size: 20px;
+    font-family: 'Proxima Nova Lt';
+    line-height: 130%;
+}
+
+.title__victor {
+    text-align: right;
+    position: relative;
+}
+
+.eventArea {
+    padding-top: 120px;
+}
+
+.eventSlider {
+    /* display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    gap: 20px; */
+    padding-top: 25px;
+}
+
+
+.eventCard {
+    box-shadow: 0px 4px 12px 2px rgba(0, 0, 0, 0.08);
+    background: #fff;
+    border-radius: 25px;
+    margin-bottom: 25px !important;
+}
+
+/* .slick-slide {
+     margin-right: 20px;
+     margin-left: 20px;
+}
+.slick-list {
+     width:calc(100% + 20px);
+} */
+
+.slick-list {
+  margin: 0 -15px; /* Half of the desired gap, negative to counter the slide margin */
+}
+
+.slick-slide {
+  margin: 0 15px; /* Half of the desired gap */
+}
+
+
+.eventTxt {
+    padding: 30px;
+    padding-bottom: 10px;
+}
+
+.eventTxt h4 {
+    font-size: 40px;
+    line-height: 130%;
+}
+
+.eventTxt p {
+    font-size: 21px;
+    line-height: 130%;
+    font-family: 'Proxima Nova Lt';
+}
+
+.title__victor img {
+    position: absolute;
+    right: 0;
+    top: -82px;
+}
+
+.event_bdr hr {
+    border-color: #000000;
+}
+
+.event_bdr {
+    padding-top: 30px;
+}
+
+.galleryArea {
+    padding-top: 120px;
+}
+
+.galleryWrap {
+    padding-top: 30px;
+}
+
+.galleryArea .sectionTitle p {
+    margin: 0;
+}
+
+.galleryImg img:nth-child(1) {
+    margin-bottom: 24px;
+}
+
+.galleryVideo {
+    position: relative;
+}
+
+.playBtn {
+    position: absolute;
+    right: 0;
+    bottom: 1px;
+    font-size: 65px;
+    height: 92px;
+    width: 92px;
+    background: #E31B22;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+}
+
+.galleryVictor {
+    position: relative;
+}
+
+.galleryVictor img {
+    position: absolute;
+    bottom: -26px;
+    left: 150px;
+}
+
+
+.company__brand {
+    padding-bottom: 35px;
+    position: relative;
+    z-index: 1;
+    padding-left: 10%;
+    padding-bottom: 80px;
+}
+
+
+/* 
+.company__brand {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    width: auto;
+}
+
+.company__brand::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #828282;
+}
+
+.company__brand::-webkit-scrollbar {
+    height: 6px;
+    background-color: #828282;
+}
+
+
+.company__brand::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+    background-color: #E31B22;
+} */
+
+
+
+.active .company__brand {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-left: 0;
+}
+
+.active .brand__grid {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    margin: 0 auto;
+}
+
+.active .testimonialCard {
+    width: 100%;
+}
+
+.brand__grid {
+    display: inline-flex;
+    gap: 20px
+}
+
+.program__resource{
+    padding-bottom: 60px;
+}
+.company__brand {
+    padding-bottom: 35px;
+    position: relative;
+    z-index: 1;
+}
+
+
+.testimonialCard {
+    box-shadow: 0px 4px 24px 2px rgba(0, 0, 0, 0.08);
+    border-radius: 25px;
+    width: 540px;
+    background: #fff;
+    padding: 25px;
+    margin: 20px 10px;
+    flex-direction: column;
+    display: inline-flex;
+    justify-content: center;
+    /* gap: 85px; */
+    min-height: 430px;
+}
+.testimonial_TopContent p {
+    white-space: break-spaces;
+    margin: 0;
+}
+
+.testimonial {
+    padding-top: 130px;
+    overflow: hidden;
+    position: relative;
+}
+
+.testimonial:after {
+    position: absolute;
+    left: 0;
+    bottom: 3px;
+    height: 1px;
+    width: 100%;
+    background: #000;
+    content: "";
+    z-index: 1;
+}
+.testimonial.active:after{
+    display: none;
+}
+
+.testimonialHeading h4 {
+    font-size: 40px;
+    line-height: 90%;
+    margin-bottom: 20px;
+}
+
+.testimonialHeading h5 {
+    font-size: 20px;
+    line-height: 130%;
+    margin: 0;
+}
+
+.testimonialHeading p {
+    font-size: 20px;
+    font-family: 'Proxima Nova Lt';
+    line-height: 130%;
+    margin: 0;
+}
+
+.testimonialContent {
+    display: grid;
+    grid-template-columns: 10fr 3fr;
+    border-top: 1px solid #000000;
+    padding-top: 30px;
+    margin-top: 30px;
+}
+
+.testimonialImg {
+    text-align: right;
+}
+
+.brand__logo.quote {
+    margin-bottom: 20px;
+}
+
+
+/* .speaker_slider {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    gap: 20px;
+} */
+
+.school__cardTxt h4 {
+    font-size: 40px;
+    line-height: 130%;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.school__cardTxt p {
+    font-size: 19px;
+    line-height: 130%;
+    font-weight: 700;
+    margin: 0;
+}
+
+.school__cardTxt span, .school__cardTxt a {
+    font-size: 19px;
+    font-family: 'Proxima Nova Lt';
+    color: #000;
+}
+
+school__cardTxt span {
+    display: block;
+    margin-bottom: 31px;
+}
+
+.school__cardTxt span {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.school__img {
+    background: #3779E0;
+    border-radius: 25px;
+}
+
+.school__img.bgBlue {
+    background: #3779E0;
+}
+
+.school__img.bgYellow {
+    background: #FFC90D;
+}
+
+.school__img.bgGreen {
+    background: #41C98E;
+}
+
+.school__img.bgPurple {
+    background: #B8A7FC;
+}
+
+.speakerArea {
+    padding-top: 120px;
+}
+
+.speakerArea .sectionTitle {
+    padding-bottom: 30px;
+}
+
+.registerArea {
+    padding-top: 120px;
+}
+
+.registerArea .sectionTitle h1 span {
+    color: #41c98d;
+}
+
+.registerArea .sectionTitle p {
+    padding: 0px 10%;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.highLight__top.faqsArea {
+    padding-top: 120px;
+}
+
+
+.footerLogo {
+    text-align: right;
+}
+
+
+/* contact form css */
+
+.contact__form input {
+    width: 100%;
+    border: none;
+    box-shadow: 0px 4px 5px #82828208;
+    padding: 10px;
+    height: 48px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.contact__form label {
+    font-weight: 600;
+}
+
+.contact__form button {
+    background: #E31B23;
+    height: 60px;
+    width: 100%;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.contact__form select {
+    height: 48px;
+    border: none;
+}
+
+.contact__form textarea {
+    width: 100%;
+    border: none;
+}
+
+
+
+.contact__form .mktoForm .mktoFormCol {
+    float: none;
+}
+
+.contact__form div {
+    float: none !important;
+    padding-left: 0 !important;
+}
+
+.contact__form label {
+    float: none !important;
+    width: 100% !important;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family: 'FONTSPRING DEMO - Proxima Nova';
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.contact__form input, .contact__form textarea, .contact__form select {
+    float: none !important;
+    width: 100% !important;
+    font-size: 15px !important;
+    padding: 10px 10px !important;
+}
+
+.mktoForm .mktoButtonWrap.mktoSimple .mktoButton {
+   background: #E31B23;
+    border: none !important;
+    width: 100% !important;
+    font-size: 24px !important;
+    font-weight: 700;
+    /* font-family: 'FONTSPRING DEMO - Proxima Nova'; */
+    background-color: #E31B23 !important;
+    background-image: none !important;
+    margin-top: 20px;
+    border-radius: 100px;
+}
+.mktoForm .mktoButtonWrap.mktoSimple .mktoButton:hover{
+    background: #000 !important;
+}
+.contact__form div span {
+    margin: 0px !important;
+}
+
+.contact__form div.mktoButtonRow {
+    width: 100%;
+}
+
+.contact__form input::placeholder, 
+.contact__form message::placeholder, 
+.contact__form select {
+    color: #828282;
+}
+
+.mktoForm .mktoOffset {
+    display: none;
+}
+
+.mktoFormRow:nth-child(2), .mktoFormRow:nth-child(3) {
+    display: inline-block;
+    width: 50%;
+}
+
+.mktoFormRow:nth-child(2) {
+    padding-right: 1%;
+}
+
+.mktoFormRow:nth-child(3) {
+    padding-left: 1% !important;
+}
+
+.contact__form form {
+    width: 100% !important;
+}
+
+.contact__form label {
+    display: none !important;
+}
+
+.contact__form input[type="radio"] {
+    width: auto !important;
+    height: auto;
+    display: inline-block;
+    margin-bottom: 15px;
+    transform: scale(1.2);
+}
+
+.contact__form  .mktoRadioList {
+    width: 205px !important;
+}
+
+.contact__form .mktoRadioList label {
+    display: inline !important;
+    margin-left: 8px !important;
+}
+.contact__form {
+    margin-top: -10px;
+}
+
+.contact__form input, .contact__form textarea, .contact__form select {
+    height: auto !important;
+}
+
+.contact__form {
+    padding: 0 5% !important;
+}
+
+.contact__form .mktoRadioList {
+width: 215px !important;
+}
+
+
+.mktoFormRow:nth-child(5), .mktoFormRow:nth-child(6) {
+    display: inline-block;
+    width: 50%;
+}
+
+.mktoFormRow:nth-child(5) {
+    padding-right: 1% !important;
+}
+
+.mktoFormRow:nth-child(6) {
+    padding-left: 1% !important;
+}
+
+/* .contact__form .mktoRadioList {
+    width: 100% !important;
+}
+
+.contact__form .mktoRadioList label#LblmktoRadio_330724_0 {
+    padding-right: 50px;
+} */
+
+.contact__form input[type="radio"] {
+    transform: scale(1.5) !important;
+}
+
+
+.contact__form .mktoFormRow input, 
+.contact__form .mktoFormRow textarea, 
+.contact__form .mktoFormRow select {
+   border: none;
+    background: #EEEEEE;
+    border-radius: 40px;
+    color: #000000;
+    font-family: 'Proxima Nova Lt';
+    font-size: 18px !important;
+    line-height: 22px;
+    padding: 0px 15px !important
+}
+.contact__form .mktoFormRow input::placeholder{
+     color: #000000 !important;
+}
+.contact__form .mktoFormRow input, .contact__form .mktoFormRow select {
+    height: 48px !important;
+}
+
+.contact__form .mktoFormRow input[type="radio"] {
+    height: auto !important;
+    border: none !important;
+}
+
+.mktoFormRow select {
+    appearance: none !important;
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    width: 100% !important;
+    padding: 10px 35px 10px 10px !important;
+    /* font-size: 16px !important;
+    border: 1px solid #ccc !important;
+    border-radius: 4px !important;
+    background-color: #fff !important; */
+    background-image: url(assets/new-images/plus.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: right 15px center !important;
+    background-size: 16px !important;
+    cursor: pointer !important;
+}
+
+.limited__seat {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.limited__seat span {
+    font-size: 20px;
+    font-family: 'Proxima Nova Lt';
+}
+
+.speaker__grid {
+    border-bottom: 1px solid #000;
+    padding-bottom: 50px;
+}
+
+.galleryVideo:hover .playBtn {
+    background: #000;
+}
+.activeTeamSlide  ul.slick-dots {
+    margin-top: 60px;
+}
+
+.teamMobileSlide {
+    padding-bottom: 30px;
+}
+
+.slick-arrow {
+    position: absolute;
+    right: 0;
+    bottom: -15px;
+    height: 36px;
+    width: 36px;
+    background: url(assets/new-images/arrow-right.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    z-index: 2;
+}
+
+ul.slick-dots {
+    margin-top: 35px;
+}
+
+.eventImg img {
+    width: 100%;
+}
+
+.slick--prev.slick-arrow {
+    background: url(assets/new-images/arrow-left.png);
+    right: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slick--prev.slick-arrow:hover {
+    background: url(assets/new-images/arrow-left-hover.png);
+    right: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slick--next.slick-arrow:hover {
+    background: url(assets/new-images/arrow-right-hover.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul.slick-dots button {
+    display: none;
+}
+
+ul.slick-dots li {
+    height: 10px;
+    width: 10px;
+    background: #D9D9D9;
+    display: inline-block;
+    margin-right: 15px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.activeGallerySlide ul.slick-dots {
+    margin-top: 50px;
+}
+
+ul.slick-dots li.slick-active {
+    background: #E31B22;
+}
+
+
+.school__img img {
+    width: 100%;
+}
+
+
+.humbergerIcon {
+    display: none;
+}
+
+.wrapBody {
+    position: relative;
+}
+
+.headerArea.sticky {
+    position: sticky;
+    top: 0;
+    background: #fff;
+    z-index: 22;
+    padding: 10px 0px;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0px 0px 3px #ddd;
+}
+
+.headerNav {
+    transition: .3s;
+}
+
+.headerArea {
+    transition: .3s;
+}
+
+.headerArea.sticky .headerNav {
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 991px){
+    .headerArea.sticky .headerNav {
+    margin-top: 0;
+}
+    .humbergerIcon {
+        display: block;
+    }
+    .headerNav li {
+    display: block;
+}
+
+.headerNav ul {
+    display: block;
+}
+
+.headerNav {
+    max-width: 240px;
+    border-radius: 15px;
+    position: absolute;
+    right: 15px;
+    top: -10px;
+    margin-left: inherit;
+    z-index: 1;
+    background: #fff;
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 45px;
+    visibility: hidden;
+    opacity: 0;
+    transition: .4s;
+}
+
+.openMenu .headerNav {
+    visibility: visible;
+    opacity: 1;
+    top: 0;
+}
+
+.headerNav li a {
+    text-align: left;
+    padding: 15px 0px;
+    border-bottom: 1px solid #000000;
+    border-radius: 0px;
+    margin: 0px 20px;
+}
+
+.headerNav li.Register a {
+    width: 190px;
+    height: 39px;
+    justify-content: center;
+    padding: 0;
+}
+
+.headerArea {
+    position: relative;
+    padding: 25px 0px;
+    padding-bottom: 35px;
+}
+
+.headerNav li.FAQs a {
+    border: none;
+}
+.humbergerIcon {
+    text-align: right;
+    position: relative;
+    z-index: 2;
+}
+
+.humbergerIcon img {
+    position: absolute;
+    transition: .4s;
+    cursor: pointer;
+}
+
+img.menuOpen {
+    right: -13px;
+    top: -16px;
+}
+
+img.menuClose {
+    right: 27px;
+    top: 19px;
+    visibility: hidden;
+    opacity: 0;
+}
+.openMenu .menuOpen {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.openMenu .menuClose {
+    visibility: visible;
+    opacity: 1;
+}
+.headerNav li a:hover {
+    background: none !important;
+}
+
+}
+@media only screen and (max-width: 767px){
+    .show__desktop {
+        display: none;
+    }
+    .show__mobile{
+        display: block;
+    }
+
+}
+
+@media only screen and (max-width: 600px){
+    .mktoFormRow:nth-child(2), 
+    .mktoFormRow:nth-child(3), 
+    .mktoFormRow:nth-child(5), 
+    .mktoFormRow:nth-child(6) {
+        width: 100%;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+}
+
+@media only screen and (min-width: 601px){
+    .contact__form .mktoRadioList {
+        width: 100% !important;
+    }
+
+    /* .contact__form .mktoRadioList label#LblmktoRadio_330724_0 {
+        padding-right: 50px;
+    } */
+
+    .contact__form input[type="radio"] {
+        transform: scale(1.5) !important;
+    }
+    .contact__form .mktoFormRow input[type="radio"][value="New"] {
+        margin-left: 50px;
+    }
+
+}
+
+
+/*end*/
+

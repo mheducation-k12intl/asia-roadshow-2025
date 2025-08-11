@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'FONTSPRING DEMO - Proxima Nova';
+    src: url('FONTSPRINGDEMO-ProximaNovaItalic.eot');
+    src: url('FONTSPRINGDEMO-ProximaNovaItalic.eot?#iefix') format('embedded-opentype'),
+        url('FONTSPRINGDEMO-ProximaNovaItalic.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-ProximaNovaItalic.woff') format('woff'),
+        url('FONTSPRINGDEMO-ProximaNovaItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Proxima Nova';
+    src: url('FONTSPRINGDEMO-ProximaNovaMediumItalic.eot');
+    src: url('FONTSPRINGDEMO-ProximaNovaMediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('FONTSPRINGDEMO-ProximaNovaMediumItalic.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-ProximaNovaMediumItalic.woff') format('woff'),
+        url('FONTSPRINGDEMO-ProximaNovaMediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Proxima Nova';
+    src: url('FONTSPRINGDEMO-ProximaNovaMediumRegular.eot');
+    src: url('FONTSPRINGDEMO-ProximaNovaMediumRegular.eot?#iefix') format('embedded-opentype'),
+        url('FONTSPRINGDEMO-ProximaNovaMediumRegular.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-ProximaNovaMediumRegular.woff') format('woff'),
+        url('FONTSPRINGDEMO-ProximaNovaMediumRegular.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Proxima Nova';
+    src: url('FONTSPRINGDEMO-ProximaNovaSemiboldRegular.eot');
+    src: url('FONTSPRINGDEMO-ProximaNovaSemiboldRegular.eot?#iefix') format('embedded-opentype'),
+        url('FONTSPRINGDEMO-ProximaNovaSemiboldRegular.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-ProximaNovaSemiboldRegular.woff') format('woff'),
+        url('FONTSPRINGDEMO-ProximaNovaSemiboldRegular.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Proxima Nova';
+    src: url('FONTSPRINGDEMO-ProximaNovaBold.eot');
+    src: url('FONTSPRINGDEMO-ProximaNovaBold.eot?#iefix') format('embedded-opentype'),
+        url('FONTSPRINGDEMO-ProximaNovaBold.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-ProximaNovaBold.woff') format('woff'),
+        url('FONTSPRINGDEMO-ProximaNovaBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Proxima Nova';
+    src: url('FONTSPRINGDEMO-ProximaNovaRegular.eot');
+    src: url('FONTSPRINGDEMO-ProximaNovaRegular.eot?#iefix') format('embedded-opentype'),
+        url('FONTSPRINGDEMO-ProximaNovaRegular.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-ProximaNovaRegular.woff') format('woff'),
+        url('FONTSPRINGDEMO-ProximaNovaRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Proxima Nova';
+    src: url('FONTSPRINGDEMO-ProximaNovaSemiboldItalic.eot');
+    src: url('FONTSPRINGDEMO-ProximaNovaSemiboldItalic.eot?#iefix') format('embedded-opentype'),
+        url('FONTSPRINGDEMO-ProximaNovaSemiboldItalic.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-ProximaNovaSemiboldItalic.woff') format('woff'),
+        url('FONTSPRINGDEMO-ProximaNovaSemiboldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Proxima Nova';
+    src: url('FONTSPRINGDEMO-ProximaNovaBoldItalic.eot');
+    src: url('FONTSPRINGDEMO-ProximaNovaBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('FONTSPRINGDEMO-ProximaNovaBoldItalic.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-ProximaNovaBoldItalic.woff') format('woff'),
+        url('FONTSPRINGDEMO-ProximaNovaBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
