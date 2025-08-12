@@ -349,8 +349,12 @@ a.btn__Global {
 .hightLight__item {
     display: grid;
     grid-template-columns: 5fr 7fr;
-    border-bottom: 1px solid #000000;
+    border-top: 1px solid #000000;
     padding: 25px 0px;
+}
+
+.hightLight__item:first-child {
+    border: none;
 }
 
 .hightLight__item h3 {
