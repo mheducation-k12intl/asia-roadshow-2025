@@ -295,19 +295,19 @@ a.btn__Global {
 }
 
 .bannerTxt h1 {
-    font-size: 78px;
+    font-size: 74px;
     line-height: 92%;
 }
 
 .bannerTxt h4 {
-    font-size: 28px;
+    font-size: 24px;
     line-height: 130%;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .bannerTxt p {
-    font-size: 28px;
+    font-size: 24px;
     line-height: 130%;
     font-family: 'Proxima Nova Lt';
 }
@@ -339,7 +339,7 @@ a.btn__Global {
     line-height: 130%;
     color: #000000;
     display: block;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .highLight__top {
