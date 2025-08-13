@@ -642,6 +642,7 @@ a.btn__Global {
 
 .brand__logo.quote {
     margin-bottom: 20px;
+    white-space: normal;
 }
 
 
