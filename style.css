@@ -482,9 +482,8 @@ a.btn__Global {
     right: 0;
     bottom: 1px;
     font-size: 65px;
-    height: 92px;
-    width: 92px;
-    background: #E31B22;
+    height: 130px;
+    width: 130px;
     color: #fff;
     text-align: center;
     display: flex;
@@ -587,7 +586,9 @@ a.btn__Global {
     white-space: break-spaces;
     margin: 0;
 }
-
+.testimonial_TopContent div {
+    white-space: break-spaces;
+}
 .testimonial {
     padding-top: 130px;
     overflow: hidden;
@@ -628,8 +629,8 @@ a.btn__Global {
 }
 
 .testimonialContent {
-    display: grid;
-    grid-template-columns: 10fr 3fr;
+    /* display: grid;
+    grid-template-columns: 10fr 3fr; */
     border-top: 1px solid #000000;
     padding-top: 30px;
     margin-top: 30px;
@@ -967,9 +968,33 @@ width: 215px !important;
     padding-bottom: 50px;
 }
 
-.galleryVideo:hover .playBtn {
-    background: #000;
+.playBtn img {
+    position: absolute;
+    width: 100%;
+    top: 1px;
+    left: 0px;
 }
+
+.playBtn img.hover {
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+.galleryVideo img {
+    width: 100%;
+}
+
+.galleryVideo:hover .playBtn img.hover {
+    visibility: visible;
+    opacity: 1;
+}
+
+.galleryVideo:hover .playBtn img.default {
+    visibility: hidden;
+    opacity: 0;
+}
+
 .activeTeamSlide  ul.slick-dots {
     margin-top: 60px;
 }
