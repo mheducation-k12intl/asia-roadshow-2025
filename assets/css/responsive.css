@@ -39,8 +39,8 @@
 }
 
 .playBtn {
-    height: 55px;
-    width: 55px;
+    height: 120px;
+    width: 120px;
     font-size: 45px;
 }
 
@@ -185,8 +185,8 @@ span#Seats-are-limited-title-mobile {
     padding-top: 70px;
 }
 .playBtn {
-    height: 42px;
-    width: 42px;
+    height: 100px;
+    width: 100px;
     font-size: 35px;
 }
 
