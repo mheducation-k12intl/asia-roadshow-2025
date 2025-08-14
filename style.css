@@ -1111,6 +1111,7 @@ ul.slick-dots li.slick-active {
 /* css for testimonial */
 .testimonialCard {
     position: relative;
+    justify-content: space-between;
 }
 
 .brand__logo.quote {
