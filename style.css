@@ -1107,6 +1107,28 @@ ul.slick-dots li.slick-active {
     margin-top: 20px;
 }
 
+
+/* css for testimonial */
+.testimonialCard {
+    position: relative;
+}
+
+.brand__logo.quote {
+    position: absolute;
+    top: 30px;
+    margin-top: 0;
+}
+
+.testimonial_TopContent div {
+    margin-top: 80px;
+    padding-bottom: 30px;
+}
+
+.testimonialContent {
+    margin-top: 0;
+    padding-top: 40px;
+}
+/* end */
 @media only screen and (max-width: 991px){
     .headerArea.sticky .headerNav {
     margin-top: 0;
