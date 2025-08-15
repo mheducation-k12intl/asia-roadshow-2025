@@ -1282,7 +1282,9 @@ img.menuClose {
 }
 
 
-
+.school__img {
+    background: none !important;
+}
 
 /* popup css */
 
@@ -1400,15 +1402,6 @@ img.menuClose {
     height: 74%;
 }
 
-/* .popupTxt::-webkit-scrollbar-track {
-    margin-bottom: 30px;
-    margin-top: 50px;
-} */
-
-
-
-
-
 
 .popupTxt::-webkit-scrollbar-track {
     border-radius: 10px;
@@ -1427,9 +1420,6 @@ img.menuClose {
     margin-top: 50px;
     height: 74%;
 }
-
-
-
 
 .popupWrap .school__cardTxt h4 {
     font-size: 28px;
