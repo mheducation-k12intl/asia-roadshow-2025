@@ -1283,7 +1283,12 @@ img.menuClose {
 
 
 
+
 /* popup css */
+
+.team__single:hover {
+    cursor: crosshair;
+}
 
 .popupWrap {
     position: fixed;
@@ -1522,6 +1527,10 @@ img.menuClose {
 }
 .popupProfile {
     margin-bottom: 20px;
+}
+
+.speaker__grid .slick-list {
+    padding-bottom: 50px;
 }
 
 }

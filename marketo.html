@@ -56,6 +56,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <meta class="mktoString" id="gallery-video-url-3" mktoName="Gallery video url 3" default="https://www.youtube.com/watch?v=Ei-TcECJVXU" />
     <meta class="mktoString" id="gallery-video-url-4" mktoName="Gallery video url 4" default="https://www.youtube.com/watch?v=Ei-TcECJVXU" />
 
+    <meta class="mktoBoolean" id="show-gallery-video-popup-item-1" mktoName="Show Gallery video popup Item 1?" default="true" true_value="block" false_value="none" false_value_name="Hide" true_value_name="Show" />
+    <meta class="mktoBoolean" id="show-gallery-video-popup-item-2" mktoName="Show Gallery video popup Item 2?" default="true" true_value="block" false_value="none" false_value_name="Hide" true_value_name="Show" />
+    <meta class="mktoBoolean" id="show-gallery-video-popup-item-3" mktoName="Show Gallery video popup Item 3?" default="true" true_value="block" false_value="none" false_value_name="Hide" true_value_name="Show" />
+    <meta class="mktoBoolean" id="show-gallery-video-popup-item-4" mktoName="Show Gallery video popup Item 4?" default="true" true_value="block" false_value="none" false_value_name="Hide" true_value_name="Show" />
+    
+    <meta class="mktoBoolean" id="show-gallery-only-image-item-1" mktoName="Show Gallery only image Item 1?" default="true" true_value="block" false_value="none" false_value_name="Hide" true_value_name="Show" />
+    <meta class="mktoBoolean" id="show-gallery-only-image-item-2" mktoName="Show Gallery only image Item 2?" default="true" true_value="block" false_value="none" false_value_name="Hide" true_value_name="Show" />
+    <meta class="mktoBoolean" id="show-gallery-only-image-item-3" mktoName="Show Gallery only image Item 3?" default="true" true_value="block" false_value="none" false_value_name="Hide" true_value_name="Show" />
+    <meta class="mktoBoolean" id="show-gallery-only-image-item-4" mktoName="Show Gallery only image Item 4?" default="true" true_value="block" false_value="none" false_value_name="Hide" true_value_name="Show" />
+
+
     <meta class="mktoBoolean" id="show-hightLight-item-4" mktoName="Show Highlight Item 4?" default="true" true_value="block" false_value="none" false_value_name="Hide" true_value_name="Show" />
     <meta class="mktoBoolean" id="show-hightLight-item-5" mktoName="Show Highlight Item 5?" default="true" true_value="block" false_value="none" false_value_name="Hide" true_value_name="Show" />
     <meta class="mktoBoolean" id="show-event-card-4" mktoName="Show even card 4?" default="true" true_value="block" false_value="none" false_value_name="Hide" true_value_name="Show" />
@@ -120,7 +131,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     .event-card-12{
     	display:${show-event-card-12} !important;
     }
-    .gallery-item-2{
+  .gallery-item-2{
     	display:${show-gallery-item-2} !important;
     }
     
@@ -130,6 +141,38 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     
     .gallery-item-4{
     	display:${show-gallery-item-4} !important;
+    }
+
+    #gallery-video-1{
+    	display:${show-gallery-video-popup-item-1};
+    }
+
+    #gallery-video-2{
+    	display:${show-gallery-video-popup-item-2};
+    }
+
+    #gallery-video-3{
+    	display:${show-gallery-video-popup-item-3};
+    }
+
+    #gallery-video-4{
+    	display:${show-gallery-video-popup-item-4};
+    }
+
+    #galley-large-image-1{
+    	display:${show-gallery-only-image-item-1};
+    }
+
+    #galley-large-image-2{
+    	display:${show-gallery-only-image-item-2};
+    }
+
+    #galley-large-image-3{
+    	display:${show-gallery-only-image-item-3};
+    }
+
+    #galley-large-image-4{
+    	display:${show-gallery-only-image-item-4};
     }
 
     #testimonial-card-3{
@@ -490,7 +533,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="gallerySingle gallery-item-1">
                   <div class="row">
                     <div class="col-md-8">
-                      <div class="galleryVideo">
+                      <div id="gallery-video-1" class="galleryVideo">
                         <a class="popupVideo" href="${gallery-video-url-1}">
                           <img id="gallery-large-img" class="mktoImg" mktoName="Gallery large image 876x552px" src="https://mheducation-k12intl.github.io/asia-roadshow-2025/assets/new-images/gallery-img1.png" alt="">
                           <div class="playBtn">
@@ -498,6 +541,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <img class="hover" src="https://mheducation-k12intl.github.io/asia-roadshow-2025/assets/new-images/Play-Button-Mask-Hover.png" alt="">
                           </div>
                         </a>
+                      </div>
+                      <div id="galley-large-image-1" class="galleryVideo">
+                        <div class="popupVideo">
+                          <img id="gallery-large-img" class="mktoImg" mktoName="Gallery large image 876x552px" src="https://mheducation-k12intl.github.io/asia-roadshow-2025/assets/new-images/gallery-img1.png" alt="">
+                        </div>
                       </div>
                     </div>
                     <div class="col-md-4">
@@ -512,7 +560,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                  <div class="gallerySingle gallery-item-2">
                   <div class="row">
                     <div class="col-md-8">
-                      <div class="galleryVideo">
+                      <div id="gallery-video-2" class="galleryVideo">
                         <a class="popupVideo" href="${gallery-video-url-2}">
                           <img src="https://mheducation-k12intl.github.io/asia-roadshow-2025/assets/new-images/gallery-img1.png" alt="">
                          <div class="playBtn">
@@ -520,6 +568,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <img class="hover" src="https://mheducation-k12intl.github.io/asia-roadshow-2025/assets/new-images/Play-Button-Mask-Hover.png" alt="">
                           </div>
                         </a>
+                      </div>
+                      <div id="galley-large-image-2" class="galleryVideo">
+                        <div class="popupVideo">
+                          <img src="https://mheducation-k12intl.github.io/asia-roadshow-2025/assets/new-images/gallery-img1.png" alt="">
+                        </div>
                       </div>
                     </div>
                     <div class="col-md-4">
@@ -534,7 +587,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                  <div class="gallerySingle gallery-item-3">
                   <div class="row">
                     <div class="col-md-8">
-                      <div class="galleryVideo">
+                      <div id="gallery-video-3" class="galleryVideo">
                         <a class="popupVideo" href="${gallery-video-url-3}">
                           <img src="https://mheducation-k12intl.github.io/asia-roadshow-2025/assets/new-images/gallery-img1.png" alt="">
                          <div class="playBtn">
@@ -542,6 +595,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <img class="hover" src="https://mheducation-k12intl.github.io/asia-roadshow-2025/assets/new-images/Play-Button-Mask-Hover.png" alt="">
                           </div>
                         </a>
+                      </div>
+                     <div id="galley-large-image-3" class="galleryVideo">
+                        <div class="popupVideo">
+                          <img src="https://mheducation-k12intl.github.io/asia-roadshow-2025/assets/new-images/gallery-img1.png" alt="">
+                        </div>
                       </div>
                     </div>
                     <div class="col-md-4">
@@ -556,7 +614,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                  <div class="gallerySingle gallery-item-4">
                   <div class="row">
                     <div class="col-md-8">
-                      <div class="galleryVideo">
+                      <div id="gallery-video-4" class="galleryVideo">
                         <a class="popupVideo" href="${gallery-video-url-4}">
                           <img src="https://mheducation-k12intl.github.io/asia-roadshow-2025/assets/new-images/gallery-img1.png" alt="">
                          <div class="playBtn">
@@ -564,6 +622,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <img class="hover" src="https://mheducation-k12intl.github.io/asia-roadshow-2025/assets/new-images/Play-Button-Mask-Hover.png" alt="">
                           </div>
                         </a>
+                      </div>
+                      <div id="galley-large-image-4" class="galleryVideo">
+                        <div class="popupVideo">
+                          <img src="https://mheducation-k12intl.github.io/asia-roadshow-2025/assets/new-images/gallery-img1.png" alt="">
+                        </div>
                       </div>
                     </div>
                     <div class="col-md-4">
