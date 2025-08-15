@@ -1308,8 +1308,8 @@ img.menuClose {
     visibility: hidden;
     opacity: 0;
     transition: .3s;
-    left: 30%;
-    transform: translateX(-50%);
+    left: 14px;
+    /* transform: translateX(-50%); */
 }
 
 .speakerPOpup__grid {
