@@ -152,6 +152,13 @@
     white-space: normal;
 }
 
+.speaker-5 .popupWrap, 
+.speaker-6 .popupWrap, 
+.speaker-7 .popupWrap, 
+.speaker-8 .popupWrap {
+    left: 50%;
+}
+
 
 @media only screen and (max-width: 1320px){
 
