@@ -580,7 +580,8 @@ a.btn__Global {
     display: inline-flex;
     justify-content: center;
     /* gap: 85px; */
-    min-height: 430px;
+    min-height: 410px;
+    padding-bottom: 30px;
 }
 .testimonial_TopContent p {
     white-space: break-spaces;
@@ -1122,7 +1123,7 @@ ul.slick-dots li.slick-active {
 
 .testimonial_TopContent div {
     margin-top: 80px;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
 }
 
 .testimonialContent {
