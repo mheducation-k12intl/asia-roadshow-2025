@@ -5,7 +5,7 @@
 
         $('.activeEventSlide').slick({
             dots: true,
-            infinite: true,
+            infinite: false,
             speed: 900,
             slidesToShow: 3,
             slidesToScroll: 3,
@@ -17,7 +17,7 @@
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 2,
-                    infinite: true,
+                    infinite: false,
                     dots: true
                 }
                 },
@@ -56,7 +56,7 @@
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 2,
-                    infinite: true,
+                    infinite: false,
                     dots: true,
                 }
                 },
@@ -65,7 +65,7 @@
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
-                    infinite: true,
+                    infinite: false,
                     dots: true,
                 }
                 },
@@ -74,7 +74,7 @@
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
-                    infinite: true,
+                    infinite: false,
                     dots: true,
                 }
                 }
@@ -88,7 +88,7 @@
 
         $('.activeGallerySlide').slick({
             dots: true,
-            infinite: true,
+            infinite: false,
             speed: 900,
             slidesToShow: 1,
             slidesToScroll: 1,
@@ -100,7 +100,7 @@
 
         $('.activeTeamSlide').slick({
             dots: true,
-            infinite: true,
+            infinite: false,
             speed: 900,
             slidesToShow: 4,
             slidesToScroll: 4,
@@ -112,7 +112,7 @@
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 2,
-                    infinite: true,
+                    infinite: false,
                     dots: true
                 }
                 },
@@ -151,7 +151,7 @@
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 2,
-                    infinite: true,
+                    infinite: false,
                     dots: true,
                 }
                 },
@@ -160,7 +160,7 @@
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
-                    infinite: true,
+                    infinite: false,
                     dots: true,
                 }
                 },
@@ -169,7 +169,7 @@
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
-                    infinite: true,
+                    infinite: false,
                     dots: true,
                 }
                 }
