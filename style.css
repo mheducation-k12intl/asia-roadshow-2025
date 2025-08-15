@@ -1139,6 +1139,9 @@ ul.slick-dots li.slick-active {
 .galleryVideo img {
     border-radius: 16px;
 }
+
+
+
 @media only screen and (max-width: 991px){
     .headerArea.sticky .headerNav {
     margin-top: 0;
