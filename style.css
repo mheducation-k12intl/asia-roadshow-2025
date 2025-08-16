@@ -1294,6 +1294,9 @@ img.menuClose {
 
 .team__single:hover {
     cursor: grab;
+}
+
+.team__single:hover .school__img img {
     filter: grayscale(1);
 }
 
