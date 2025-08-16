@@ -1293,7 +1293,7 @@ img.menuClose {
 /* popup css */
 
 .team__single:hover {
-    cursor: grab;
+    cursor: pointer;
 }
 
 .team__single:hover .school__img img {
