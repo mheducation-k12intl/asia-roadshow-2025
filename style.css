@@ -1286,10 +1286,15 @@ img.menuClose {
     background: none !important;
 }
 
+.galleryVideo img.hover, 
+.galleryVideo img.default {
+    width: auto;
+}
 /* popup css */
 
 .team__single:hover {
-    cursor: crosshair;
+    cursor: grab;
+    filter: grayscale(1);
 }
 
 .popupWrap {
