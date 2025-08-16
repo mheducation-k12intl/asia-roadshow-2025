@@ -2,14 +2,6 @@
 	"use strict";
     jQuery(document).ready(function($){
         
-    
-        // Remove hidden slides before initializing slick
-        $('.activeEventSlide > .eventCard').each(function(){
-            if (!$(this).is(':visible')) {
-            $(this).remove();
-            }
-        });
-
 
         $('.activeEventSlide').slick({
             dots: true,
@@ -109,7 +101,12 @@
             slidesToScroll: 1,
             prevArrow: '<div class="slick--prev"></div>',
             nextArrow: '<div class="slick--next"></div>',
-            });
+        });
+
+        // Remove hidden slides after init
+        // $('.activeGallerySlide').slick('slickFilter', function(index, slide){
+        // return $(slide).css('display') !== 'none';
+        // });
 
 
 
@@ -150,14 +147,6 @@
                 // instead of a settings object
             ]
             });
-
-
-        // Remove hidden slides before initializing slick
-        $('.teamMobileSlide > .team__single').each(function(){
-            if (!$(this).is(':visible')) {
-            $(this).remove();
-            }
-        });
 
 
         $('.teamMobileSlide').slick({
