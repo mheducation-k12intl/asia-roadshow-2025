@@ -2,6 +2,16 @@
 	"use strict";
     jQuery(document).ready(function($){
         
+
+         $('.team__single').on('click', function() {
+            $('.speakerArea').addClass('removeNav');
+        });
+
+        $('.poppClose').on('click', function() {
+            $('.speakerArea').removeClass('removeNav');
+        })
+
+
     
         // Remove hidden slides before initializing slick
         $('.activeEventSlide > .eventCard').each(function(){

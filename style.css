@@ -1140,6 +1140,9 @@ ul.slick-dots li.slick-active {
     border-radius: 16px;
 }
 
+.removeNav .slick-arrow, .removeNav .slick-dots {
+    display: none !important;
+}
 
 
 @media only screen and (max-width: 991px){
@@ -1248,6 +1251,21 @@ img.menuClose {
     .show__mobile{
         display: block;
     }
+    .school__card .mktoGen.mktoImg {
+        width: 100%;
+    }
+    .testimonialHeading h4 div {
+        white-space: break-spaces;
+    }
+
+    .testimonialHeading h5 {
+        white-space: break-spaces;
+    }
+
+    .testimonialHeading div {
+        white-space: break-spaces;
+    }
+
 
 }
 
