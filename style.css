@@ -352,8 +352,7 @@ a.btn__Global {
     border-top: 1px solid #000000;
     padding: 25px 0px;
 }
-
-.hightLight__item:first-child {
+.highLight__top .col-12 div:first-child .hightLight__item {
     border: none;
 }
 
@@ -655,7 +654,7 @@ a.btn__Global {
 
 .school__cardTxt h4 {
     font-size: 40px;
-    line-height: 130%;
+    line-height: 96%;
     margin-top: 20px;
     margin-bottom: 15px;
 }
@@ -997,9 +996,9 @@ width: 215px !important;
     opacity: 0;
 }
 
-.activeTeamSlide  ul.slick-dots {
+/* .activeTeamSlide  ul.slick-dots {
     margin-top: 60px;
-}
+} */
 
 .teamMobileSlide {
     padding-bottom: 30px;
@@ -1375,7 +1374,7 @@ img.menuClose {
 }
 
 .team__single {
-    padding-bottom: 70px;
+    padding-bottom: 50px;
     position: relative;
 }
 
