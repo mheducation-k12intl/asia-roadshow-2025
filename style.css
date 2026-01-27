@@ -369,6 +369,18 @@ a.btn__Global {
     margin: 0;
     line-height: 130%;
 }
+.highlights-subtitle{
+    font-size: 20px;
+    font-family: 'Proxima Nova Lt';
+    margin: 0;
+    line-height: 130%;
+}
+.faq-subtitle{
+    font-size: 20px;
+    font-family: 'Proxima Nova Lt';
+    margin: 0;
+    line-height: 130%;
+}
 
 .sectionTitle h1 {
     font-size: 94px;
