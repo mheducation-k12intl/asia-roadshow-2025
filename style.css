@@ -670,6 +670,18 @@ a.btn__Global {
     gap: 20px;
 } */
 
+.speaker_slider.teamStatic{
+  display:flex;
+  flex-wrap:wrap;
+  gap:24px;
+  justify-content:flex-start; /* or center if you prefer */
+}
+
+.speaker_slider.teamStatic .team__single{
+  width: calc(25% - 24px); /* 4 per row */
+  margin:0 !important;
+}
+
 .school__cardTxt h4 {
     font-size: 40px;
     line-height: 96%;
@@ -1311,6 +1323,8 @@ img.menuClose {
         display: block !important;
     }
 
+.speaker_slider.teamStatic .team__single{ width:100%; }
+    
 }
 
 @media only screen and (min-width: 601px){
@@ -1580,6 +1594,8 @@ img.menuClose {
 .speaker__grid .slick-list {
     padding-bottom: 50px;
 }
+
+.speaker_slider.teamStatic .team__single{ width: calc(50% - 24px); }
 
 }
 
