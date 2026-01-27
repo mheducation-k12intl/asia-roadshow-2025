@@ -121,6 +121,12 @@
             nextArrow: '<div class="slick--next"></div>',
             });
 
+// Remove hidden slides before initializing slick (speaker desktop)
+$('.activeTeamSlide > .team__single').each(function(){
+  if (!$(this).is(':visible')) {
+    $(this).remove();
+  }
+});
 
 
         $('.activeTeamSlide').slick({
